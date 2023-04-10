@@ -1,2 +1,2 @@
 # PrimeNumber
-course practice
+Python
