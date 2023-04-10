@@ -1,2 +1,2 @@
-# practice-1
+# PrimeNumber
 course practice
