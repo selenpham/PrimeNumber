@@ -29,36 +29,3 @@ def isPrimeNumber():
 
 isPrimeNumber();
 
-# import math
-
-# def isPrimeNumber():
-#     while True:
-#         user_input = input("Enter your number N > 0: (enter E to exit) ")
-        
-#         if user_input == "E":
-#             break
-        
-#         try:
-#             N = int(user_input)
-            
-#             if N <= 1:
-#                 print(str(N) + " is not a prime number")
-#             else:
-#                 is_prime = True
-                
-#                 for i in range(2, int(math.sqrt(N))+1):
-#                     if N % i == 0:
-#                         is_prime = False
-#                         break
-                
-#                 if is_prime:
-#                     print(str(N) + " is a prime number")
-#                 else:
-#                     print(str(N) + " is not a prime number")
-                    
-#         except ValueError:
-#             print("Invalid input, enter a number greater than 0 or 'E'")
-        
-#     print("Program exited")
-
-# isPrimeNumber()
